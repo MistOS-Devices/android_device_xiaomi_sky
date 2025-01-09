@@ -521,3 +521,6 @@ PRODUCT_PACKAGES += \
 
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
+
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
